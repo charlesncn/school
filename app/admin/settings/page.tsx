@@ -23,11 +23,11 @@ export default function AdminSettingsPage() {
   })
 
   const [schoolSettings, setSchoolSettings] = useState({
-    schoolName: "EduPortal High School",
+    schoolName: "Gichungo High School",
     address: "123 Education Street, Learning City, LC 12345",
     phone: "+1 (555) 123-4567",
-    email: "admin@eduportal.edu",
-    website: "www.eduportal.edu",
+    email: "admin@Gichungo.edu",
+    website: "www.Gichungo.edu",
     timezone: "America/New_York",
     academicYear: "2024-2025",
     currentTerm: "Term 1",
@@ -37,7 +37,7 @@ export default function AdminSettingsPage() {
     <div className="flex min-h-screen bg-gray-50">
       <Sidebar userType="admin" />
 
-      <div className="flex-1 lg:ml-56">
+      <div className="flex-1 lg:ml-4">
         <div className="p-4 lg:p-6">
           <div className="mb-8">
             <h1 className="text-2xl lg:text-3xl font-bold text-slate-900 flex items-center gap-2">

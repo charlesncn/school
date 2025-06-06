@@ -37,7 +37,7 @@ export default function LoginPage() {
             <GraduationCap className="w-8 h-8 text-white" />
           </div>
           <div>
-            <CardTitle className="text-2xl font-bold text-slate-900">EduPortal</CardTitle>
+            <CardTitle className="text-2xl font-bold text-slate-900">Gichungo</CardTitle>
             <CardDescription className="text-slate-600">Advanced School Management System</CardDescription>
           </div>
         </CardHeader>

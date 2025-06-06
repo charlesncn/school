@@ -99,7 +99,7 @@ export default function Sidebar({ userType }: SidebarProps) {
 
       <div
         className={`
-          fixed inset-y-0 left-0 z-40 w-56 bg-gradient-to-b from-slate-900 to-blue-900 text-white transform transition-transform duration-300 ease-in-out
+          sticky top-0 left-0 inset-y-0 left-0 z-40 w-64 bg-gradient-to-b from-slate-900 to-blue-900 text-white transform transition-transform duration-300 ease-in-out
           ${isCollapsed ? "-translate-x-full" : "translate-x-0"}
           lg:translate-x-0 lg:static lg:inset-0
         `}
@@ -109,7 +109,7 @@ export default function Sidebar({ userType }: SidebarProps) {
             <GraduationCap className="w-6 h-6" />
           </div>
           <div>
-            <h1 className="text-xl font-bold">EduPortal</h1>
+            <h1 className="text-xl font-bold">Gichungo</h1>
             <p className="text-sm text-white/70 capitalize">{userType}</p>
           </div>
         </div>

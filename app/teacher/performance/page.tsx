@@ -125,7 +125,7 @@ export default function TeacherPerformancePage() {
     <div className="flex min-h-screen bg-gray-50">
       <Sidebar userType="teacher" />
 
-      <div className="flex-1 lg:ml-56">
+      <div className="flex-1 lg:ml-4">
         <div className="p-4 lg:p-6">
           <div className="mb-8">
             <h1 className="text-2xl lg:text-3xl font-bold text-slate-900 flex items-center gap-2">

@@ -70,7 +70,7 @@ export default function SubjectDetailPage({ params }: { params: { id: string } }
     <div className="flex min-h-screen bg-gray-50">
       <Sidebar userType="teacher" />
 
-      <div className="flex-1 lg:ml-56">
+      <div className="flex-1 lg:ml-4">
         <div className="p-4 lg:p-6">
           <div className="flex items-center gap-4 mb-8">
             <Link href="/teacher/subjects">
